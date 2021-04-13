@@ -1,13 +1,13 @@
-﻿package restful
+package restful
 
 import (
 	"encoding/json"
 	"fmt"
-	"huobi_futures_Golang/sdk/linearswap"
-	requesttiggerorder "huobi_futures_Golang/sdk/linearswap/restful/request/triggerorder"
-	responsetriggerorder "huobi_futures_Golang/sdk/linearswap/restful/response/triggerorder"
-	"huobi_futures_Golang/sdk/log"
-	"huobi_futures_Golang/sdk/reqbuilder"
+	"github.com/alezh/huobi_futures_Golang/sdk/linearswap"
+	requesttiggerorder "github.com/alezh/huobi_futures_Golang/sdk/linearswap/restful/request/triggerorder"
+	responsetriggerorder "github.com/alezh/huobi_futures_Golang/sdk/linearswap/restful/response/triggerorder"
+	"github.com/alezh/huobi_futures_Golang/sdk/log"
+	"github.com/alezh/huobi_futures_Golang/sdk/reqbuilder"
 )
 
 type TriggerOrderClient struct {

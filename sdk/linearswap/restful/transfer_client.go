@@ -1,12 +1,12 @@
-﻿package restful
+package restful
 
 import (
 	"encoding/json"
 	"fmt"
-	"huobi_futures_Golang/sdk/linearswap"
-	"huobi_futures_Golang/sdk/linearswap/restful/response/transfer"
-	"huobi_futures_Golang/sdk/log"
-	"huobi_futures_Golang/sdk/reqbuilder"
+	"github.com/alezh/huobi_futures_Golang/sdk/linearswap"
+	"github.com/alezh/huobi_futures_Golang/sdk/linearswap/restful/response/transfer"
+	"github.com/alezh/huobi_futures_Golang/sdk/log"
+	"github.com/alezh/huobi_futures_Golang/sdk/reqbuilder"
 )
 
 type TransferClient struct {
